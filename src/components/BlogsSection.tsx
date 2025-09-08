@@ -24,7 +24,7 @@ const BlogsSection = () => {
     },
     {
       title: "Google Ads vs Facebook Ads: Which is Better for Your Business?",
-      description: "A comprehensive comparison of Google Ads and Facebook Ads to help you choose the right platform for your advertising budget.",
+      description: "A comprehensive comparison of Google Ads and Facebook Ads to help you choose the right platform for your advertising budget. Discover the most effective SEO techniques that can help your small business rank higher in search results and attract more customers. Discover the most effective SEO techniques that can help your small business rank higher in search results and attract more customers",
       category: "Ads",
       date: "January 10, 2024",
       readTime: "7 min read",
