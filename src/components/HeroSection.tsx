@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-image.jpg";
-
 const HeroSection = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-background to-secondary/30">
+  return <section id="home" className="relative min-h-screen flex items-center bg-gradient-to-br from-background to-secondary/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -21,9 +19,7 @@ const HeroSection = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                Hire Me Now
-              </Button>
+              
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                 Contact Me
               </Button>
@@ -47,25 +43,19 @@ const HeroSection = () => {
 
           <div className="lg:order-last">
             <div className="relative">
-              <img
-                src={heroImage}
-                alt="Digital marketing workspace showcasing SEO analytics and growth strategies"
-                className="w-full h-auto rounded-2xl shadow-large"
-              />
+              <img src={heroImage} alt="Digital marketing workspace showcasing SEO analytics and growth strategies" className="w-full h-auto rounded-2xl shadow-large" />
               <div className="absolute -bottom-4 -left-4 bg-primary text-primary-foreground p-4 rounded-lg shadow-medium">
-                <div className="text-2xl font-bold">500+</div>
+                <div className="text-2xl font-bold">Serving 2 Businesses and Multiple Projects</div>
                 <div className="text-sm">Projects Completed</div>
               </div>
               <div className="absolute -top-4 -right-4 bg-success text-success-foreground p-4 rounded-lg shadow-medium">
-                <div className="text-2xl font-bold">98%</div>
+                <div className="text-2xl font-bold">Guaranteed</div>
                 <div className="text-sm">Client Satisfaction</div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
